@@ -14,7 +14,14 @@
 ## File Structure
 Downloaded and extract the [Bootstrap Source](https://github.com/twitter/bootstrap/) into this sub-theme. After it has been extracted, the folder should be named `bootstrap`. Once downloaded and extracted, you will not need to touch these files again. This allows the framework to be updated in the future.
 
-Everything you will need to customize this sub-theme is located in the `../less` folder. Specifically, typically the only files that really need to be modified would be:
+NOTE: Everything you will need to customize this sub-theme is located in the `../less` folder. The following files are simply copies from the Bootstrap libary and were modified to work for this sub-theme:
+```
+../less/bootstrap.less
+../less/responsive.less
+../less/variables.less
+```
+
+The following files are generally acceptable to modify:
 
 ```
 ../less/variables.less
