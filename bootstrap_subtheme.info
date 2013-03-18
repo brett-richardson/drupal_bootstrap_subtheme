@@ -1,0 +1,24 @@
+name = Bootstrap Sub-theme
+description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+core = 7.x
+base theme = bootstrap
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+
+stylesheets[all][] = css/theme.css
+
+settings[toggle_name] = 0
+settings[toggle_search] = 1
+settings[cdn_bootstrap] = 0
+settings[cdn_jquery] = 0
+
+; The base theme thinks the Bootstrap library was put in it's folder, exclude them.
+exclude[css][] = bootstrap/css/bootstrap.css
+exclude[css][] = bootstrap/css/bootstrap-responsive.css
