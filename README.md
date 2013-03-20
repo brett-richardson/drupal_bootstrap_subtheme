@@ -12,7 +12,7 @@
 * Either a local LESS preprocessor or install and enable the [LESS](http://drupal.org/project/less) module - 7.x-3.0-beta1 or higher (see [bootstrap_subtheme.info](#bootstrap_subthemeinfo)).
 
 ## File Structure
-Downloaded and extract the [Bootstrap Source](https://github.com/twitter/bootstrap/) into this sub-theme. After it has been extracted, the folder should be named `bootstrap`. Once downloaded and extracted, you will not need to touch these files again. This allows the framework to be updated in the future.
+Downloaded and extract the [Bootstrap Source](https://github.com/twitter/bootstrap/tags) into this sub-theme. After it has been extracted, the folder should be named `bootstrap`. Once downloaded and extracted, you will not need to touch these files again. This allows the framework to be updated in the future.
 
 NOTE: Anything you need to customize will be located in the `../less` folder of the subtheme, NOT `../bootstrap`. The following files are simply duplicates from the Bootstrap libary. In theory, you could update them by copying them from the Bootstrap framework again. Just make sure to modifiy the import paths to reference the `../bootstrap/less` folder:
 ```
