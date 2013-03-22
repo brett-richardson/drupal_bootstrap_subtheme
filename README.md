@@ -1,3 +1,28 @@
+# IMPORTANT
+This sub-theme on GitHub is now outdated. I am trying to get this into the Bootstrap base theme and a patch has been posted at: http://drupal.org/node/1844448#comment-7199884
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 # Bootstrap Sub-theme
 * [Requirements](#requirements)
 * [File Structure](#file-structure)
