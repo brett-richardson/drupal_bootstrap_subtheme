@@ -6,7 +6,7 @@
  */
 function bootstrap_subtheme_js_alter(&$js) {
   $base_js = drupal_get_path('theme', 'bootstrap') . '/bootstrap/js/bootstrap.js';
-  $theme_js_path = drupal_get_path('theme', 'bootstrap_subtheme') . '/bootstrap/js/bootstrap-';
+  $theme_js_path = drupal_get_path('theme', $GLOBALS['theme_key']) . '/bootstrap/js/bootstrap-';
   if (isset($js[$base_js])) {
     unset($js[$base_js]);
     // Add Bootstrap JS libraries. Comment out the ones you don't want.
